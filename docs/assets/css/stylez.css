@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Quicksand-Regular';
-    src: url('../WilboopSoto.github.io/docs/assets/fonts/Quicksand-Regular.otf') format('opentype');
+    src: url('fonts/Quicksand-Regular.otf') format('opentype');
 }
 * {
     box-sizing: border-box;
@@ -11,7 +11,6 @@ html,body{
     background-color: black;
     margin: 0;
     padding: 0;
-    background-image: url(WilboopSoto.github.io/docs/assets/images/TTFROG-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -35,8 +34,13 @@ html,body{
     margin: 0 auto;
     padding: 0 1.5em;
 }
+.menucontainer{
+    max-width: 100px;
+    margin: 1em;
+    padding: 0 1.5em;
+}
 .pants{
-    height: 400px;
+    height: 250px;
     animation: fadeInAnimation ease-in-out .25s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
